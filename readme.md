@@ -4,14 +4,14 @@
 ## Ejercicios libro Enloquent-JS
 
 1. Haciendo uso de la consola imprime el siguiente triangulo:
-  \#
-  \#\#
-  \#\#\#
-  \#\#\#\#
-  \#\#\#\#\#
-  \#\#\#\#\#\#
-  \#\#\#\#\#\#\#
-  \#\#\#\#\#\#\#\#
+  \#  
+  \#\#  
+  \#\#\#  
+  \#\#\#\#  
+  \#\#\#\#\#  
+  \#\#\#\#\#\#  
+  \#\#\#\#\#\#\#  
+  \#\#\#\#\#\#\#\#  
 
 2. Crea un programa que muestre los numeros de 1 a 100 pero:
   * Para cada número divisible por 3, no imprime el número e imprime fizz.
@@ -19,14 +19,14 @@
   * Para cada número divisible por 3 y 5, no imprime el número e imprime fizzbuzz sin alterar fizz o buzz.
 
 3. Crea un programa que imprima el siguiente cuadro de ajedrez:
-  \# \# \# \#
-   \# \# \# \#
-  \# \# \# \#
-   \# \# \# \#
-  \# \# \# \#
-   \# \# \# \#
-  \# \# \# \#
-   \# \# \# \#
+  \# \# \# \#  
+   \# \# \# \#  
+  \# \# \# \#  
+   \# \# \# \#  
+  \# \# \# \#  
+   \# \# \# \#  
+  \# \# \# \#  
+   \# \# \# \#  
 
 4. Crea una función que tome 2 números como parámetros y determine cuál es el valor más grande.
 
