@@ -3,7 +3,7 @@
 
 ## Ejercicios libro Enloquent-JS
 
-1. Haciendo uso de la consola imprime el siguiente triangulo:
+1. Haciendo uso de la consola imprime el siguiente triangulo:  
   \#  
   \#\#  
   \#\#\#  
@@ -18,7 +18,7 @@
   * Para cada número divisible por 5, no imprime el número e imprime buzz.
   * Para cada número divisible por 3 y 5, no imprime el número e imprime fizzbuzz sin alterar fizz o buzz.
 
-3. Crea un programa que imprima el siguiente cuadro de ajedrez:
+3. Crea un programa que imprima el siguiente cuadro de ajedrez:  
   \# \# \# \#  
    \# \# \# \#  
   \# \# \# \#  
@@ -45,3 +45,18 @@
 8. Crea dos funciones que reversan los valores de un string o array:
   * Para la primera, esta los reversara y lo devolvera en una variable.
   * Para la segunda, esta los reversara pero los devuelve en el misma variable que se le pasas cómo parámetro.
+9. Crea un a función que sea capaz de crear listas de objetos especificando el numero mas arriba de la lista. Una lista es un conjunto anidado de objetos, con el primer objeto conteniendo una referencia al segundo, el segundo al tercero, y así sucesivamente. Algo que se vea retornado cómo:  
+  lista = {  
+    valor: 1,  
+    resto : {  
+      valor: 2,  
+      resto: {  
+        valor: 3,  
+        resto: null  
+      }  
+    }  
+  }  
+
+10. Crea una función que compare si, dos objetos son iguales y tienen las mismas propiedades, si es asi, retorna true sino, retorna false.  
+
+11. Crea una función que aplane un array de arrays. Por lo que al pasarle un array de arrays, retornara un solo array con todos los elementos de todos los array internos.
