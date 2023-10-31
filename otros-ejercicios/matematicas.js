@@ -51,7 +51,7 @@ function tabla(num,limit=12){
 //tabla(9);
 //tabla(12,5);
 
-// (4) calculadora
+// (5) calculadora
 class calculadora{
 	static sumar(a,b){
 		return a+b;
@@ -71,3 +71,21 @@ class calculadora{
 //console.log(calculadora.restar(12,5));
 //console.log(calculadora.multiplicar(6,7));
 //console.log(calculadora.dividir(100,25));
+
+// (6) numeros decimales a numeros romanos
+// Nota adicional solo sirve para numeros positivos de 1 a 3999
+function integerToRoman(num){
+	const decimales = [1000,900,500,400,100,90,50,40,10,9,5,4,1];
+	const romanos = ['M','CM','D','CD','C','XC','L','XL','X','IX','V','I'];
+	let resultado = '';
+
+	decimales.forEach((valor, i)=>{
+		while(num >= valor){
+			resultado = resultado + romanos[i];
+			num = num - valor
+		}
+	});
+	return resultado;
+}
+// probando salidas
+//console.log(integerToRoman(3050))

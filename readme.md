@@ -10,3 +10,4 @@
   3. Una función que determine los divisores de un número.
   4. Una función que imprima la tabla de multiplicar de un número.
   5. Una calculadora que pueda sumar, restar, multiplicar y dividir dos números.
+  6. Una función que convierta números decimales a Romanos
