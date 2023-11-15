@@ -60,3 +60,7 @@
 10. Crea una función que compare si, dos objetos son iguales y tienen las mismas propiedades, si es asi, retorna true sino, retorna false.  
 
 11. Crea una función que aplane un array de arrays. Por lo que al pasarle un array de arrays, retornara un solo array con todos los elementos de todos los array internos.
+
+12. Función de orden superior que recibe cómo parametros un valor inicial, una función de inicio, una función de actualización, una función de cuerpo, la cual debe actuar cómo un ciclo.
+
+13. El metodo 'every' verifica que todos los elementos de un array cumplan con una condición, contrario al metodo 'some' que devuelve true si al menos un elemento del array cumple la condición, crea una función similar a 'every' utilizando el metodo 'some' y otra utilizando un ciclo, teniendo en cuenta que 'some' es similar al operador 'or' y every al operador 'and'.
