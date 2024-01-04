@@ -64,3 +64,33 @@
 12. Función de orden superior que recibe cómo parametros un valor inicial, una función de inicio, una función de actualización, una función de cuerpo, la cual debe actuar cómo un ciclo.
 
 13. El metodo 'every' verifica que todos los elementos de un array cumplan con una condición, contrario al metodo 'some' que devuelve true si al menos un elemento del array cumple la condición, crea una función similar a 'every' utilizando el metodo 'some' y otra utilizando un ciclo, teniendo en cuenta que 'some' es similar al operador 'or' y every al operador 'and'.
+
+14. Dirección de Escritura Dominante
+Escriba una función que calcule la dirección de escritura dominante en un string
+de texto. Recuerde que cada objeto de codigo tiene una propiedad direction
+que puede ser "ltr" (de izquierda a derecha), "rtl" (de derecha a izquierda),
+o "ttb" (arriba a abajo).
+La dirección dominante es la dirección de la mayoría de los caracteres que
+tienen un código asociado a ellos. Las funciones codigoCaracter y contarPor
+definidas anteriormente en el capítulo probablemente seran útiles aquí.
+
+15. clase vector que tome propiedades 'x' y 'y' dos metodos mas y menos que realicen una suma o diferencia entre el mismo vector y otro, y un getter llamado 'longitud' que indique la distancia respecto al origen (0,0).
+
+16. Realiza una clase que funcione como un cojunto 'set', estos conjuntos tienen los metodos 'add' 'delete' 'has', los cuales permiten añadir elementos al conjunto, teniendo en cuenta que este realiza la simulación de un array pero no permite añadir ('add') elementos iguales a los que ya tiene y permite eliminar elementos con 'delete'.
+
+17. Haz iterable la clase Conjunto del ejercicio anterior. Puedes remitirte a la
+sección acerca de la interfaz del iterador anteriormente en el capítulo si ya no
+recuerdas muy bien la forma exacta de la interfaz.
+Si usaste un array para representar a los miembros del conjunto, no solo
+retornes el iterador creado llamando al método Symbol.iterator en el array.
+Eso funcionaría, pero frustra el propósito de este ejercicio.
+Está bien si tu iterador se comporta de manera extraña cuando el conjunto
+es modificado durante la iteración.
+
+18. Anteriormente en el capítulo mencioné que el metodo hasOwnProperty de un
+objeto puede usarse como una alternativa más robusta al operador in cuando
+quieras ignorar las propiedades del prototipo. Pero, ¿y si tu mapa necesita
+incluir la palabra "hasOwnProperty"? Ya no podrás llamar a ese método ya
+que la propiedad del objeto oculta el valor del método.
+¿Puedes pensar en una forma de llamar hasOwnProperty en un objeto que
+tiene una propia propiedad con ese nombre?
